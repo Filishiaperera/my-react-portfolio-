@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/project-5.jpg";
 
 export const HERO_CONTENT = `I am a dedicated Software Engineering undergraduate with a strong foundation in both front-end and back-end development. I have a growing interest in Machine Learning. My goal is to leverage my knowledge and skills to develop innovative solutions that enhance user experiences and contribute to successful project outcomes.`;
 export const ABOUT_TEXT = `My technical expertise spans a variety of technologies, including JavaScript, CSS, React, and Framer Motion for front-end development, as well as Java, Python, SQL, and Git for back-end and data management. My journey in software development began with a deep curiosity for understanding how digital systems operate, and it has grown into a career path where I continuously seek to learn and adapt to new challenges. I thrive in collaborative environments and excel at solving complex problems to deliver high-quality solutions. I am also skilled in using Figma for design and  I enjoy exploring new technologies and am driven by a commitment to continuous learning and professional growth.`;
@@ -70,13 +71,21 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "JavaScript","Framer Motion"],
   },
   {
-    title: "Blogging Platform",
+    title: "Slot machine System",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Developed a slot machine system and it allows users to spin the slot machine, generating random items and adding them to the final amount. The system is designed with a focus on simplicity and user enjoyment.",
+    technologies: ["Python"],
+  },
+  {
+    title: "Westminster Shopping Management System",
+    image: project5,
+    description:
+      "The Westminster Shopping Management System designed for efficient shopping experiences. It facilitates item selection, pricing, discounts, and cart management while integrating seamlessly with a backend database for data storage and retrieval.",
+    technologies: ["Java", "JavaFX"],
   },
 ];
+
 
 export const CONTACT = {
   address: "No-08, Polhena Road, Kelaniya, Sri Lanka",
