@@ -1,9 +1,11 @@
 import{RiReactjsLine} from 'react-icons/ri'
-import{TbBrandNextjs} from 'react-icons/tb'
+import { FaGithub } from "react-icons/fa";
 import{SiMongodb} from 'react-icons/si'
-import{DiRedis} from 'react-icons/di'
+import { CgFigma } from "react-icons/cg";
 import{FaNodeJs} from 'react-icons/fa'
-import { BiLogoPostgresql } from 'react-icons/bi'
+import { TbFileTypeSql } from "react-icons/tb";
+import { SiPython } from "react-icons/si";
+
 import { motion} from 'framer-motion'
 
 const iconVariaants=(duration)=>({
@@ -38,12 +40,19 @@ const Technologies = () => {
         className="rounded-2xl border-4 border-neutral-800 p-4">
            < RiReactjsLine className='text-7xl text-cyan-400'/>
         </motion.div>
+        <motion.div
+        variants={iconVariaants(2.7)} 
+        initial="initial"
+        animate="animate"
+        className="rounded-2xl border-4 border-neutral-800 p-4">
+           < SiPython className='text-7xl text-cyan-400 text-yellow-300'/>
+        </motion.div>
         <motion.div 
           variants={iconVariaants(3.5)} 
           initial="initial"
           animate="animate"
         className="rounded-2xl border-4 border-neutral-800 p-4">
-           < TbBrandNextjs className='text-7xl'/>
+           < FaGithub className='text-7xl'/>
         </motion.div>
         <motion.div 
           variants={iconVariaants(4)} 
@@ -57,7 +66,7 @@ const Technologies = () => {
           initial="initial"
           animate="animate"
         className="rounded-2xl border-4 border-neutral-800 p-4">
-           < DiRedis className='text-7xl text-red-700'/>
+           < CgFigma className='text-7xl text-pink-400'/>
         </motion.div>
         <motion.div 
           variants={iconVariaants(5)} 
@@ -71,7 +80,7 @@ const Technologies = () => {
           initial="initial"
           animate="animate"
         className="rounded-2xl border-4 border-neutral-800 p-4">
-           < BiLogoPostgresql className='text-7xl text-sky-700'/>
+           < TbFileTypeSql className='text-7xl text-sky-700'/>
         </motion.div>
     </motion.div>
     </div>
