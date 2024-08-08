@@ -3,62 +3,71 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
-
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const HERO_CONTENT = `I am a dedicated Software Engineering undergraduate with a strong foundation in both front-end and back-end development. I have a growing interest in Machine Learning. My goal is to leverage my knowledge and skills to develop innovative solutions that enhance user experiences and contribute to successful project outcomes.`;
+export const ABOUT_TEXT = `My technical expertise spans a variety of technologies, including JavaScript, CSS, React, and Framer Motion for front-end development, as well as Java, Python, SQL, and Git for back-end and data management. My journey in software development began with a deep curiosity for understanding how digital systems operate, and it has grown into a career path where I continuously seek to learn and adapt to new challenges. I thrive in collaborative environments and excel at solving complex problems to deliver high-quality solutions. I am also skilled in using Figma for design and  I enjoy exploring new technologies and am driven by a commitment to continuous learning and professional growth.`;
 
 export const ACHIEVEMENTS = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "2023",
+    role: "Participated in Aquathon",
+    company: "IEEE Student Branch of IIT",
+    description: `Honored with the Certificate of Participation for adeptly tackling algorithmic challenges. This event was hosted by the IEEE Student Branch of IIT, showcasing a blend of competitive spirit and technical prowess.`,
+    technologies: ["Python", "Java", "Problem Solving", "Teamwork"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "2024",
+    role: "Python for Beginners Certificate",
+    company: "University of Moratuwa",
+    description: `Honored with the Python for Beginners Certificate at the University of Moratuwa, gaining a strong foundation in Python programming, including basic syntax, data structures, and problem-solving techniques.`,
+    technologies: ["Python", "Problem Solving"],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    year: "2023",
+    role: "Participated in IEEExtreme 17.0",
+    company: "IEEE Student Branch of IIT",
+    description: `Awarded Certificate of Participation for successfully tackling algorithmic challenges. This event was hosted by the IEEE Student branch of IIT, where I actively engaged in problem-solving activities.`,
+    technologies: ["Python", "Java", "Problem Solving", "Teamwork"],
   },
   {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "2023",
+    role: "Participated in PrologueX",
+    company: "IEEE Student Branch of IIT",
+    description: `Awarded a Certificate of Participation for successfully tackling algorithmic challenges. This event was hosted by the IEEE Student branch of IIT, where I actively engaged in problem-solving activities.`,
+    technologies: ["Python", "Java", "Problem Solving", "Teamwork"],
   },
+  {
+    year: "2023",
+    role: "Participated in the Problem Solving 24",
+    company: "IEEE Student Branch of IIT",
+    description: `Awarded a Certificate of Participation for successfully tackling algorithmic challenges. This event
+    was hosted by the IEEE Student branch of IIT, where I actively engaged in problem-solving
+    activities`,
+    technologies: [ "Problem Solving", "Teamwork"],
+  },
+
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Real estate website",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Deployed a responsive real estate website using React.js, Framer Motion, CSS, and the Swiper JS library. The website features a user-friendly interface with smooth animations and transitions. Utilized Swiper JS to implement an interactive carousel for property listings. The site is fully responsive, ensuring optimal performance across various devices and screen sizes.",
+    technologies: ["HTML", "CSS", "React", "Framer Motion", "Swiper JS library"],
   },
   {
-    title: "Task Management App",
+    title: "Centurous - Gateway to Astronomy",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      " An online platform offering comprehensive astronomy education for students, including evaluation processes. Integrated e-commerce functionality for the sale of astronomy-related merchandise.",
+    technologies: ["HTML", "CSS", "JavaScript"],
   },
   {
     title: "Portfolio Website",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "This is a modern and interactive portfolio website which showcases projects, skills, About me, technologies which I'm familiar with, achievements and all my projects with smooth animations. Utilized Framer Motion to enhance the user experience through dynamic animations and transitions, ensuring a visually engaging and responsive site which successfully deployed on Vercel.",
+    technologies: ["HTML", "CSS", "React", "JavaScript","Framer Motion"],
   },
   {
     title: "Blogging Platform",
